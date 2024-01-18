@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        nav{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+       
+        }
+        .nav_menu{
+            display: flex;
+            column-gap: 10px;
+            list-style: none;
+        }
+        li a{
+           color: rgb(0, 0, 0);
+           text-decoration: none;
+           text-transform: capitalize;
+         transition: all .2s linear ;
+        }
+        li a:hover{
+            color: red;
+        }
+       button{
+        padding: 6px 10px;
+        background-color: aquamarine;
+        border: none;
+        transition: box-shadow .2s linear ;
+        }
+        button:hover{
+            box-shadow: 4px 4px 0px black;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <h3>Logo</h3>
+        </div>
+        <ul class="nav_menu">
+            <li><a href="htmlchp.html">Home</a></li>
+            <li><a href="">contact</a></li>
+            <li><a href="">about</a></li>
+        </ul>
+        <div>
+            <button>signup</button>
+        </div>
+    </nav>
+</body>
+</html>
